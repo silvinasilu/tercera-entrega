@@ -32,6 +32,10 @@
     background-color: #bb1c51;
     transform: scale(0.8); } }
 
+body main h1, body main p {
+  font-style: oblique;
+  color: #bb1c51; }
+
 /* estilos */
 body {
   background-color: white; }
@@ -51,18 +55,14 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #bb1c51;
       text-shadow: 10px 10px 10px pink;
       text-align: center;
       font-size: 4rem;
-      font-style: oblique;
       margin-bottom: 40px; }
     body main p {
       padding: 1rem;
       text-align: center;
       font-size: 2rem;
-      font-style: oblique;
-      color: #bb1c51;
       text-shadow: 10px 10px 10px pink;
       margin-bottom: 40px; }
     body main nav .container-fluid {
