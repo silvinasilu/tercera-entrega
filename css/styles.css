@@ -1,0 +1,122 @@
+/* reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 600px) {
+  /*estilo del section*/
+  section {
+    display: block;
+    /*display: flex;*/
+    background-color: #facfd6;
+    gap: 1.5rem;
+    padding: 2rem; }
+    section div {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (min-width: 1024px) {
+  .es-visible-camion {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #facfd6;
+    gap: 1.5rem;
+    padding: 2rem; }
+  footer ul li:hover {
+    background-color: #bb1c51;
+    transform: scale(0.8); } }
+
+/* estilos */
+body {
+  background-color: white; }
+  body header {
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body header img {
+      width: 60%; }
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; }
+    body main h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #bb1c51;
+      text-shadow: 10px 10px 10px pink;
+      text-align: center;
+      font-size: 4rem;
+      font-style: oblique;
+      margin-bottom: 40px; }
+    body main p {
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-style: oblique;
+      color: #bb1c51;
+      text-shadow: 10px 10px 10px pink;
+      margin-bottom: 40px; }
+    body main nav .container-fluid {
+      padding: 10px 10px;
+      border-radius: 10px;
+      background-color: pink;
+      box-shadow: 5px 5px 5px #bb1c51;
+      font-weight: bold;
+      font-size: 2rem;
+      font-style: oblique; }
+  body section {
+    display: none; }
+    body section div img {
+      width: 25%;
+      padding: 2rem;
+      margin: 2rem; }
+  body footer {
+    text-align: center;
+    margin: 20px; }
+    body footer ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none; }
+      body footer ul .telefono img {
+        width: 13%; }
+      body footer ul .ubicacion img {
+        width: 10%;
+        padding: 5px;
+        margin-left: 20px; }
+      body footer ul .mail img {
+        width: 10%;
+        padding: 5px; }
+    body footer h2 {
+      font-size: 0.7rem;
+      margin-top: 1rem; }
+  body .header2 .subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bb1c51;
+    text-shadow: 10px 10px 10px pink;
+    text-align: center;
+    font-size: 4rem;
+    font-style: oblique;
+    margin-bottom: 40px; }
+  body .header2 nav .container-fluid {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: pink;
+    box-shadow: 5px 5px 5px #bb1c51;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: oblique; }
+  body .mainmujeres img {
+    width: 25%; }
+  body .mainchicos img {
+    width: 25%; }
